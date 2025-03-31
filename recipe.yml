@@ -1,0 +1,10 @@
+name: 'Zoocha Security Password Polocy Recipe'
+description: 'Provides Security related modules for Zoocha.'
+type: 'Feature'
+
+install:
+  - password_policy
+  - password_policy_characters
+  - password_policy_length
+config:
+  strict: false
